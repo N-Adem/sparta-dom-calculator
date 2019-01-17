@@ -1,0 +1,28 @@
+.main-container {
+    display:grid;
+    background-color: black;
+    margin: 50px 400px;
+
+}
+.number-form {
+    display:grid;
+    background-color: lightgrey;
+    padding: 30px;
+    margin: 30px 100px 0 100px;
+    color: white;
+}
+.calculate-buttons {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    grid-column-gap: 5px;
+    grid-row-gap: 20px;
+    background-color: orange;
+    margin: 50px 100px 50px 100px;
+}
+button {
+    font-size: 30px;
+}
+#Enter {
+    
+}
